@@ -1,0 +1,23 @@
+{
+    "code-runner.executorMap": {
+        "javascript": "clear && node",
+        "typescript": "clear && ts-node",
+    },
+
+
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    // "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "[html]": {
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnType": true,
+        "files.autoSave": "afterDelay",
+    },
+    "[css]": {
+        "editor.suggest.insertMode": "replace",
+        "files.autoSave": "afterDelay",
+    }
+}
+    
+
