@@ -1,22 +1,20 @@
 {
-    "code-runner.executorMap": {
-        "javascript": "clear && node",
-        "typescript": "clear && npx ts-node --files",
-    },
+   "code-runner.executorMap": {
+      "javascript": "clear && node",
+      "typescript": "clear && npx ts-node --files"
+   },
 
-
-    "code-runner.runInTerminal": true,
-    "code-runner.ignoreSelection": true,
-    "editor.wordWrap": "on",
-    "[html]": {
-        "editor.suggest.insertMode": "replace",
-        "editor.formatOnType": true,
-        "files.autoSave": "afterDelay",
-    },
-    "[css]": {
-        "editor.suggest.insertMode": "replace",
-        "files.autoSave": "afterDelay",
-    }
+   "code-runner.runInTerminal": true,
+   "code-runner.ignoreSelection": true,
+   "editor.wordWrap": "on",
+   "[html]": {
+      "editor.suggest.insertMode": "replace",
+      "editor.formatOnType": true,
+      "files.autoSave": "afterDelay"
+   },
+   "[css]": {
+      "editor.suggest.insertMode": "replace",
+      "files.autoSave": "afterDelay"
+   },
+   "cSpell.words": ["cnpj"]
 }
-    
-
