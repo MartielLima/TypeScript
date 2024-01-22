@@ -3,11 +3,9 @@ import { Order } from './classes/Order';
 import { ShoppingCart } from './classes/ShoppingCart';
 import { Persistency } from './services/persistency';
 import { Product } from './classes/product';
-import { FiftyPercentDiscount } from './classes/Discount';
 import { TenPercentDiscount } from './classes/Discount';
 import { EnterpriseCustomer, IndividualCostumer } from './classes/Customers';
 
-const fiftyPercentDiscount = new FiftyPercentDiscount();
 const tenPercentDiscount = new TenPercentDiscount();
 const shoppingCart = new ShoppingCart(tenPercentDiscount);
 const messaging = new Messaging();
