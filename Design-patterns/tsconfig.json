@@ -1,23 +1,21 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "ESNext", "DOM", "DOM.Iterable"],
-    "module": "CommonJS",
-    "skipLibCheck": true,
+    "compilerOptions": {
+        "target": "ES2020",
+        "useDefineForClassFields": true,
+        "lib": ["ES2020", "ESNext", "DOM", "DOM.Iterable"],
+        "module": "CommonJS",
+        "skipLibCheck": true,
 
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "removeComments": true,
-    "noEmitOnError": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "removeComments": true,
+        "noEmitOnError": true,
 
-    /* Linting */
-    "strict": true,
-    "esModuleInterop": true,
-    "skipDefaultLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-  },
-  "include": [
-    "./src"
-  ]
+        /* Linting */
+        "strict": true,
+        "esModuleInterop": true,
+        "skipDefaultLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["./src"]
 }
