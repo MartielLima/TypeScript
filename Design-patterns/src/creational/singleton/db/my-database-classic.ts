@@ -28,7 +28,7 @@ export class MyDatabaseClassic {
 
     show(): void {
         for (const user of this._users) {
-            console.log();
+            console.log(user);
         }
     }
 }
