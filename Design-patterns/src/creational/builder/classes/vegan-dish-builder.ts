@@ -1,17 +1,16 @@
 import { MealBuilderProtocol } from '../interfaces/meal-builder-protocol';
 import { MealBox } from './meal-box';
-import { Beans, Beverage, Dessert, Meat, Rice, Salad } from './meals';
+import { Beans, Beverage, Dessert, Rice, Salad } from './meals';
 
-export class MainDishBuilder implements MealBuilderProtocol {
+export class VeganDishBuilder implements MealBuilderProtocol {
     private _meal: MealBox = new MealBox();
 
     makeMeal(): this {
         const rice = new Rice('Arroz', 5);
         const beans = new Beans('Feijão', 5);
-        const meat = new Meat('Carne', 6);
         const salad = new Salad('Salada', 3);
 
-        this._meal.add(rice, beans, meat, salad);
+        this._meal.add(rice, beans, salad);
 
         return this;
     }
