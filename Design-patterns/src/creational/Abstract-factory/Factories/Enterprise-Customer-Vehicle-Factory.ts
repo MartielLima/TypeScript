@@ -4,9 +4,7 @@ import { EnterpriseCar } from '../Vehicle/Enterprise-Car';
 import { Vehicle } from '../Vehicle/Interfaces/Vehicle-Protocol';
 import { CreateVehicleCustomer } from './Interfaces/Customer-Vehicle-Factory';
 
-export class EnterpriseCreateVehicleCustomerFactory
-    implements CreateVehicleCustomer
-{
+export class EnterpriseCreateVehicleCustomerFactory implements CreateVehicleCustomer {
     createCustomer(customerName: string): Customer {
         return new EnterpriseCustomer(customerName);
     }
