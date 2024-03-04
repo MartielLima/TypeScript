@@ -35,21 +35,16 @@ export class ValidationComposite extends ValidationComponent {
             const validation = child.validate(value);
             if (!validation) return false;
         }
-
         return true;
     }
 }
 
 const validadeEmail = new ValidateEmail();
 const validadeString = new ValidadeString();
-const validadeNumber = new ValidadeNumber();
 
 const validationComposite = new ValidationComposite();
 validationComposite.add(validadeEmail, validadeString);
 
 const email = 'martielsantos13@gmail.com';
-const senha = 123456789;
 
-const emailBrolken = 'martiel.gmail.com';
-
-console.log('Is email', validationComposite.validate(email));
+console.log(validationComposite.validate(email));
